@@ -1,0 +1,194 @@
+html{
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10.6px;
+    line-height: 2;
+    margin: 0;
+    background-color: #adb5bd;
+}
+.contenedor{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 40.8px;
+}
+p,h1,h2,h3,h4{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.barra{
+    padding-top: 20px;
+    padding-bottom: 200px;   
+}
+.logo img{
+    width: 70px;
+    height: 70px;    
+}
+.navegacion{ 
+    display: block;
+    text-align: right;
+    margin-top: -70px;
+    font-size: 25px;
+    
+}
+.navegacion__enlace{
+    color: black;
+    padding: 5px;    
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;    
+    background-color: #ECC440;
+}
+.header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/img/header-bg.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header__texto{
+    text-align: center;
+    color: white;       
+}
+.header_servicios{
+    height: 100px;
+}
+.textoPrincipal{    
+    font-size: 40px;
+    font-family: cursive;}
+.subtexto{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtexto__servicios{
+    font-size: 50px;
+}
+.textoPrincipal__servicios{
+    font-size: 20px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+.boton{
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.boton-primary{
+    color: black;
+    background-color: #ECC440;
+    border-color: #ECC440;
+    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton-x1{
+    padding: 12.5px 25px;
+    font-size: 25px;
+}
+.textabout{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.equipo-miembros{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.equipo-miembros img{
+    width: 245px;
+    height: 245px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+}
+.circuloimagen{
+    border-radius: 50%;
+}
+.mx-auto{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.textoabout{
+    --bs-text-opacity: 1;
+  color: #4d5052 !important;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  margin-left: 280px;
+  width: 600px;
+}
+.ft{
+    background-color: gray;
+    color: white;    
+    height: 150px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.aling-items-center{
+    align-items: center;
+    text-align: center;
+}
+.alinearizquierda{   
+    text-align: left;    
+}
+.alinearderecha{
+    text-align: right;
+    color: white;
+    margin-top: -150px;    
+}
+.btn-social{      
+    font-size: 50px;  
+    padding: 20px;   
+    color: black;
+}
+.terminos{
+    color: white;
+}
+/*CSS Pagina Servicios*/
+.center{
+    position: inherit;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+   
+    
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.position1{
+    margin-right: 800px;
+    background-color: aqua;
+    position: absolute;
+}
+.position2{
+    margin-left: 400px;
+    background-color: aqua;
+    position: absolute;
+}
+.position3{
+    margin-left: 800px;
+    background-color: aqua;
+    position: absolute;
+}
+.contenedor__servicios{
+    height: 550px;
+    position: inherit;
+}
