@@ -1,194 +1,225 @@
-html{
-    box-sizing: border-box; 
-}
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10.6px;
-    line-height: 2;
-    margin: 0;
-    background-color: #adb5bd;
-}
-.contenedor{
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
-}
-a {
-    text-decoration: none;
-}
-h1, h2, h3, h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1{
-    font-size: 40.8px;
-}
-p,h1,h2,h3,h4{
-    margin: 0;
-}
-img{
-    max-width: 100%;
-}
-.barra{
-    padding-top: 20px;
-    padding-bottom: 200px;   
-}
-.logo img{
-    width: 70px;
-    height: 70px;    
-}
-.navegacion{ 
-    display: block;
-    text-align: right;
-    margin-top: -70px;
-    font-size: 25px;
-    
-}
-.navegacion__enlace{
-    color: black;
-    padding: 5px;    
-    border-radius: 10px;
-    text-align: center;
-    margin: 5px;    
-    background-color: #ECC440;
-}
-.header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/img/header-bg.jpg);
-    height: 800px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.header__texto{
-    text-align: center;
-    color: white;       
-}
-.header_servicios{
-    height: 100px;
-}
-.textoPrincipal{    
-    font-size: 40px;
-    font-family: cursive;}
-.subtexto{
-    font-size: 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.subtexto__servicios{
-    font-size: 50px;
-}
-.textoPrincipal__servicios{
-    font-size: 20px;
-    margin-top: -30px;
-    padding-bottom: 20px;
-}
-.boton{
-    display: inline-block;
-    line-height: 40px;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 3px solid white;
-    border-radius: 20px;
-    margin-bottom: 20px;
-}
-.boton-primary{
-    color: black;
-    background-color: #ECC440;
-    border-color: #ECC440;
-    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.boton-x1{
-    padding: 12.5px 25px;
-    font-size: 25px;
-}
-.textabout{
-    text-align: center;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-}
-.equipo-miembros{
-    margin-bottom: 60px;
-    text-align: center;
-}
-.equipo-miembros img{
-    width: 245px;
-    height: 245px;
-    border: 5px solid rgba(0, 0, 0, 0.3);
-}
-.circuloimagen{
-    border-radius: 50%;
-}
-.mx-auto{
-    margin-right: auto !important;
-    margin-left: auto !important;
-}
-.textoabout{
-    --bs-text-opacity: 1;
-  color: #4d5052 !important;
-  font-size: 20px;
-  text-align: center;
-  padding: 30px;
-  margin-left: 280px;
-  width: 600px;
-}
-.ft{
-    background-color: gray;
-    color: white;    
-    height: 150px;
-    font-size: 25px;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.aling-items-center{
-    align-items: center;
+
+*::-webkit-scrollbar {
+    width: 14px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #616128 0%, #35585a 100%);
+    border-radius: 8px;
+    border: 3px solid #ffffff;
+}
+
+body {
+    width: 99vw;
+    height: 261.5vh;
+    margin: 0;
+    background: linear-gradient(360deg, rgba(2, 0, 36, 1) 0%, rgba(84, 74, 30, 1) 15%, rgba(113, 99, 41, 1) 30%, rgba(150, 132, 55, 1) 64%, rgba(195, 172, 72, 1) 100%);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+header {
+    height: 15vh;
+    background-color: #d3a80b;
+}
+
+main {
+    height: 75vh;
+}
+
+footer {
+    height: 10vh;
+    color: #fff;
+    background-color: rgba(125, 125, 125, 0.7);
+}
+
+/* Pagina de Inicio */
+
+/* Navegador */
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc800;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 1.5em;
+        transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand svg,
+    #mainNav.navbar-shrink .navbar-brand img {
+        height: 1.5rem;
+    }
+
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+}
+
+header.inicioheader {
+    padding-top: 25rem;
+    padding-bottom: 25rem;
     text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
 }
-.alinearizquierda{   
-    text-align: left;    
+
+header.inicioheader .inicioheader-subheading {
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.alinearderecha{
-    text-align: right;
+
+header.inicioheader .inicioheader-heading {
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.btn-primary {
+    background-color: #d3a80b;
+    border-color: #fff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #b4931be5;
+    border-color: #fff;
+}
+
+.btn-primary:active:focus {
     color: white;
-    margin-top: -150px;    
+    background-color: black;
+    border-color: #b4931be5;
 }
-.btn-social{      
-    font-size: 50px;  
-    padding: 20px;   
-    color: black;
+
+/* Nosotros */
+main.nosotros {
+    height: 160vh;
 }
-.terminos{
-    color: white;
+
+.page-section {
+    padding: 6rem 0;
 }
-/*CSS Pagina Servicios*/
-.center{
-    position: inherit;
-    text-align: center;
+
+#about {
+    padding-top: 7rem;
 }
-.text-center{
-    text-align: center;
-   
-    
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
+
+.section-heading,
+.setion-h4 {
+    color: #fff;
 }
-.position1{
-    margin-right: 800px;
-    background-color: aqua;
-    position: absolute;
+
+.history img {
+    width: 20rem;
+    height: 20rem;
+    border: 0.5rem solid rgba(94, 91, 91, 0.7);
 }
-.position2{
-    margin-left: 400px;
-    background-color: aqua;
-    position: absolute;
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #7d868f !important;
+    padding: 0 20rem;
 }
-.position3{
-    margin-left: 800px;
-    background-color: aqua;
-    position: absolute;
+
+/* Footer */
+a {
+    color: #fff;
 }
-.contenedor__servicios{
-    height: 550px;
-    position: inherit;
+
+a:hover {
+    color: #ffc800;
 }
+
+
+@media (max-width: 1399.98px) {
+    .text-muted {
+        padding: 0 10rem;
+    }
+
+    /* .fs-4 {
+        font-size: 1rem !important;
+    } */
+}
+
+@media (max-width: 1199.98px) {
+    .text-muted {
+        padding: 0 1rem;
+        background-color: rgb(204, 60, 60);
+    }
+}
+
+
+/* Media de dispositivos Quienes somos */
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+
