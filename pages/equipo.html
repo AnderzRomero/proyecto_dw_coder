@@ -21,7 +21,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="equipoHeader">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a href="../index.html"><img class="rounded float-start w-25 ms-5" src="../assets/img/Exlusivo.png"
@@ -43,8 +43,8 @@
         </nav>
     </header>
 
-    <main>
-        <section class="page-section bg-light" id="team">
+    <main class="equipoMain">
+        <section class="page-section">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
@@ -53,7 +53,8 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/1.jpg' %}" alt="..." />
+                            <img class="mx-auto rounded-circle imgEquipo" src="../assets/img/equipo/1.jpg"
+                                alt="Empleados" />
                             <h4>Parveen Anand</h4>
                             <p class="text-muted">Lead Designer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
@@ -66,7 +67,8 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/2.jpg' %}" alt="..." />
+                            <img class="mx-auto rounded-circle imgEquipo" src="../assets/img/equipo/2.jpg"
+                                alt="Empleados" />
                             <h4>Diana Petersen</h4>
                             <p class="text-muted">Lead Marketer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
@@ -79,7 +81,8 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/3.jpg' %}" alt="..." />
+                            <img class="mx-auto rounded-circle imgEquipo" src="../assets/img/equipo/3.jpg"
+                                alt="Empleados" />
                             <h4>Larry Parker</h4>
                             <p class="text-muted">Lead Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"
@@ -120,7 +123,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
