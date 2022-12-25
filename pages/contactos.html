@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="../css/styles.css" as="style">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <title>Equipo</title>
+    <title>Contáctenos</title>
     <meta name="description" content="Pagina web de Exclusivo Gareje Estrella">
 </head>
 
 <body>
-    <header class="equipoHeader">
+    <header class="contactosHeader">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a href="../index.html"><img class="rounded float-start w-25 ms-5" src="../assets/img/Exlusivo.png"
@@ -41,7 +41,174 @@
             </div>
         </nav>
     </header>
-    <main>        
+    <main class="contactosMain">   
+        <section class="contenedorcon sombracon">
+            <h2>Contáctenos</h2>
+            <form action="contactos.php" method="post" class="row g-3 needs-validation formulariocon" novalidate>
+
+                <fieldset>
+                    <legend>Si tiene alguna duda o comentario, por favor contáctenos o escríbenos, para tener el gusto de
+                        atenderte. </legend>
+    
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control input-text" id="validationCustom01" name="nombre"
+                                placeholder="&#xf007;   Tu nombre" required>
+                            <div class="valid-feedback">
+                                ¡Muy Bien!
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor, ingrese un nombre.
+                            </div>
+                        </div>
+    
+                        <div class="campo">
+                            <label for="celular" class="form-label">Celular</label>
+                            <input type="tel" class="form-control input-text" id="validationCustom02" name="celular" placeholder="&#Xf095;   Tu Telefono" required>
+                            <div class="valid-feedback">
+                                ¡Muy Bien!
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor, ingrese numero celular.
+                            </div>
+                        </div>
+    
+                        <div class="campo">
+                            <label for="Email" class="form-label">Email</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="email" class="form-control input-text" id="validationCustomUsername" aria-describedby="inputGroupPrepend"  name="correo" placeholder="Tu Correo" required>
+                                <div class="invalid-feedback">
+                                    Por favor, ingrese correo electronico.
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="campo">
+                            <label for="Mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control input-text" id="validationTextarea" name="mensaje" placeholder="&#Xf039;   Ejemplo obligatorio de área de texto" required></textarea>
+                            <div class="invalid-feedback">
+                              Ingrese un mensaje en el área de texto.
+                            </div>
+                        </div>
+    
+                        <div class="campo__checkbox">
+                            <div class="form-check">
+                                <input class="form-check-input checkbox" type="checkbox" name="acepto" value="" id="invalidCheck" required>
+                                <label class="form-check-label"  id="checkbox" for="invalidCheck">Estoy de acuerdo con los Términos de Condiciones y Protección de Datos,
+                                declaro que he leído la información suministrada por ustedes.
+                                </label>
+                                <div class="invalid-feedback">
+                                    Debes estar de acuerdo antes de enviar.
+                                </div>
+                            </div>
+                        </div> 
+                    </div>  
+                       
+                        <div class="Botones_contacto">
+                            <input class="btn btn-primary boton w-sm-100" type="submit" value="Enviar">
+                            <input class="boton w-sm-100" type="reset" value="Limpiar">
+                        </div>
+                </fieldset>
+            </form>
+        </section>     
+        <aside>
+            <div class="contenido-herocon">
+                <div class="ubicacioncon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="68"
+                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="12" r="9" />
+                        <polyline points="12 7 12 12 15 15" />
+                    </svg>
+                    <p>
+                        <span>
+                            <strong>Horario de Atención</strong>
+                        </span>
+                        <br></br>
+                        <span>Lunes - Viernes: 08:00 am - 05:30 pm</span>
+                        <br></br>
+                        <span>Sabados: 08:00 am - 02:00 pm</span>
+                        <br></br>
+                        <span>Domingos: Cerrado</span>
+                        <br></br>
+                        <span>Festivos: Cerrado</span>
+                    </p>
+    
+                </div>
+    
+                <div class="ubicacioncon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass" width="68"
+                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="12" y1="3" x2="12" y2="5" />
+                        <line x1="12" y1="19" x2="12" y2="21" />
+                        <line x1="3" y1="12" x2="5" y2="12" />
+                        <line x1="19" y1="12" x2="21" y2="12" />
+                    </svg>
+                    <p>
+                        <span>
+                            <strong>Dirección</strong>
+                        </span>
+                        <br></br>
+                        <span>CARRERA 25B # 41 - 29 SUR</span>
+                        <br></br>
+                        <span>Bogotá - Colombia</span>
+                        <br></br>
+                        <span>Barrio Ingles</span>
+                    </p>
+                </div>
+    
+                <div class="ubicacioncon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="68"
+                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="7" y="4" width="10" height="16" rx="1" />
+                        <line x1="11" y1="5" x2="13" y2="5" />
+                        <line x1="12" y1="17" x2="12" y2="17.01" />
+                    </svg>
+                    <p>
+                        <span>
+                            <strong>Celular</strong>
+                        </span>
+                        <br></br>
+                        <span>+57 310 758 7561 - +57 313 493 3139</span>
+                        <br></br>
+                        <span>+60(1) 4571094</span>
+                    </p>
+                </div>
+                <div class="ubicacioncon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="68" height="68"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                    </svg>
+                    <p>
+                        <span>
+                            <strong>Email</strong>
+                        </span>
+                        <br></br>
+                        <span>metalmecanica@metalicasfevega.com.co</span>
+                        <br></br>
+                        <span>metalicasfevega@hotmail.com</span>
+                    </p>
+                </div>
+    
+                <div class="map-responsivecon">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0649101693703!2d-74.12578998517937!3d4.582368243948043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98d34e0c1e21%3A0x603dfdc59e5c165e!2sCra.%2025B%20%2341-29%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1624150139252!5m2!1ses-419!2sco"
+                        width="540" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </aside>
         
     </main>
     <footer class="py-4">
