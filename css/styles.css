@@ -726,25 +726,21 @@ main.contactosMain {
     border-radius: 2rem;
 }
 
-@media (min-width: 448px) {
+@media (min-width: 558px) {
     .formulariocon {
         font-size: 100%;
     }
 
     .formulariocon legend {
         font-size: 1.7rem;
-    }
-
-    .contenido-herocon {
-        font-size: 90%;
-    }
+    }    
 
     .map-responsivecon {
         grid-column: 1 / 3;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px){
     .formulariocon {
         font-size: 100%;
     }
@@ -758,6 +754,16 @@ main.contactosMain {
         font-size: 100%;
         gap: 2rem;
     }
+    .contenido-herocon {
+        font-size: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .map-responsivecon {
+        grid-column: 1 / 3;
+    }
 }
+
 
 /* End: Google Maps Resposive */
