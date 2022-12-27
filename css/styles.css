@@ -48,6 +48,12 @@ footer {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+#mainNav img {
+    width: 18%;
+    height: 18%;
+    margin-left: 10rem;
+}
+
 #mainNav .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
@@ -157,6 +163,171 @@ header.inicioheader .inicioheader-heading {
     border-color: #b4931be5;
 }
 
+@media (max-width: 575.98px) {
+    body {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    header.inicioheader {
+        padding-top: 12rem !important;              
+    }
+
+    main {
+        height: auto !important;
+       
+    }
+
+    main.serviciosMain {
+        padding-top: 2rem;
+        height: auto !important;
+    }
+
+    main.portafolioMain {
+        padding-top: 2rem;
+        height: auto !important;
+    }
+    main.equipoMain {
+        padding-top: 1rem;
+        height: auto !important;        
+    }
+
+    footer {
+        height: 25vh;        
+        text-align: center;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+
+    .py-4 {
+        padding-top: 0.5rem !important;
+    }
+
+    .portafolioMain,
+    .portafolio-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .img-fluid,
+    .portafolio-caption {
+        max-width: none;
+        width: 80%;
+        height: auto;
+    }
+    .portafolio-modal .modal-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;        
+    }
+
+    .modal-body img {
+        height: 300px !important;
+        width: 300px !important;
+        
+    }
+
+    .portafolio-modal .modal-content h2,
+    .portafolio-modal .modal-content .h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .portafolio-modal .modal-content .text-muted {
+        color: #fff !important;
+    }
+
+    .portafolio-modal .close-modal {
+        width: 2rem !important;
+    }
+
+    .portafolio-modal .modal-content {
+        padding-top: 2.5rem !important;
+    }
+
+    #mainNav img {
+        width: 18%;
+        height: 18%;
+        margin-left: 0rem;
+        padding: 0;
+    }
+
+    .navbar>.container {
+        justify-content: center;
+    }
+
+    .container {
+        --bs-gutter-x: 0.5rem;
+        width: auto;
+    }
+
+    .page-section h3.section-subheading,
+    .page-section .section-subheading.h3 {
+        margin-bottom: 0 !important;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0 !important;
+    }
+
+    .display-2 {
+        font-size: 1rem;
+    }
+
+    .page-section {
+        padding: 0 !important;
+    }
+
+    .page-section h2.section-heading,
+    .page-section .section-heading.h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .pb-5 {
+        padding-bottom: 0rem !important;
+    }
+
+    .history img {
+        width: 10rem !important;
+        height: 10rem !important;
+        background-color: #ffc800;
+    }
+
+    .btn-primary {
+        font-size: 0.7rem;
+    }
+
+    .text-muted {
+        padding: 0 !important;
+    }
+
+    .fs-4 {
+        font-size: 1rem !important;
+    }
+
+    .clientes .img-fluid {
+        max-width: none;
+        height: 2rem;
+        width: 13rem;
+    }
+
+    footer .btn-social {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+
+
 /* Nosotros */
 main.nosotros {
     height: 160vh;
@@ -212,33 +383,6 @@ a {
 a:hover {
     color: #ffc800;
 }
-
-
-@media (max-width: 1399.98px) {
-    .text-muted {
-        padding: 0 10rem;
-    }
-
-    /* .fs-4 {
-        font-size: 1rem !important;
-    } */
-}
-
-@media (max-width: 1199.98px) {
-    .text-muted {
-        padding: 0 1rem;
-        background-color: rgb(204, 60, 60);
-    }
-}
-
-
-/* Media de dispositivos Quienes somos */
-
-@media (max-width: 575.98px) {}
-
-@media (max-width: 767.98px) {}
-
-@media (max-width: 991.98px) {}
 
 /* Pagina servicios */
 
@@ -405,7 +549,7 @@ header.equipoHeader {
 
 main.equipoMain {
     height: 100vh;
-   background: linear-gradient(90deg, rgba(175,171,171,0.7) 0%, rgba(0,0,0,0.5) 50%, rgba(167,165,165,0.7) 100%);
+    background: linear-gradient(90deg, rgba(175, 171, 171, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(167, 165, 165, 0.7) 100%);
 }
 
 .imgEquipo {
@@ -593,9 +737,6 @@ main.contactosMain {
 
     .contenido-herocon {
         font-size: 90%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
     }
 
     .map-responsivecon {
@@ -620,6 +761,3 @@ main.contactosMain {
 }
 
 /* End: Google Maps Resposive */
-
-/* Medias querys */
-@media (min-width: 992px) {}
