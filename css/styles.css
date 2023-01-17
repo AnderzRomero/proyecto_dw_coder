@@ -146,7 +146,7 @@ header.inicioheader .inicioheader-heading {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 } */
 
-.btn-primary {
+/* .btn-primary {
     background-color: #d3a80b;
     border-color: #fff;
 }
@@ -162,7 +162,8 @@ header.inicioheader .inicioheader-heading {
     background-color: black;
     border-color: #b4931be5;
     
-}@media (max-width: 991.98px) {
+} */
+@media (max-width: 991.98px) {
 
     body {
         width: auto !important;
@@ -503,24 +504,22 @@ header.inicioheader .inicioheader-heading {
 }
 
 
-
-
 /* Nosotros */
-main.nosotros {
+/* main.nosotros {
     height: 160vh;
 }
 
 .page-section {
     padding: 6rem 0;
-}
+} */
 
-.page-section h2.section-heading,
+/* .page-section h2.section-heading,
 .page-section .section-heading.h2 {
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.7);
-}
+} */
 
 .page-section h3.section-subheading,
 .page-section .section-subheading.h3 {
