@@ -99,3 +99,11 @@ footer {
       margin-top: 0;
       margin-bottom: 1rem;
       color: rgba(255, 255, 255, 0.7); }
+    .nosotros .page-section .history img {
+      width: 20rem;
+      height: 20rem;
+      border: 0.5rem solid rgba(94, 91, 91, 0.7); }
+    .nosotros .page-section .history .setion-h4 {
+      color: #fff; }
+  .nosotros #about {
+    padding-top: 7rem; }
