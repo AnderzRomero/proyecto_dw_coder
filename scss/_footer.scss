@@ -1,0 +1,8 @@
+footer {
+    a {    
+        color: white;    
+        &:hover {
+            color: $yellow-700;
+        }
+    }
+}
