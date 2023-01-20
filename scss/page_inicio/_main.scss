@@ -9,8 +9,8 @@
             font-size: 2.5rem;
             margin-top: 0;
             margin-bottom: 1rem;
-            color: rgba(255, 255, 255, 0.781);
-
+            color: rgba(255, 255, 255, 0.897);
+            font-family: $fuentetextos;
         }
 
         .history {
@@ -22,13 +22,20 @@
 
             .setion-h4 {
                 color: #fff;
+                font-family: $fuentetextos;
             }
 
             .text-muted {
                 --bs-text-opacity: 0.5;
-                color: #1c1e20 !important;
+                color: #fff !important;
                 padding: 0 18rem;
+                font-family: $fuentetextos;
             }
+        }
+    }
+    .clientes {
+        .section-heading{
+            font-family: $fuentetextos;
         }
     }
 
