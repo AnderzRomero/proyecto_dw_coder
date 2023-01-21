@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!--Hoja de estilos Boostrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,500;1,500&family=Oswald:wght@300;400&family=Roboto+Slab&family=Source+Sans+Pro:ital@0;1&display=swap"
+        rel="stylesheet">
     <!--Hoja de estilos CSS-->
     <link rel="stylesheet" href="../css/style.css" as="style">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <title>Contáctenos</title>
+    <title>Contactos</title>
     <meta name="description" content="Pagina web de Exclusivo Gareje Estrella">
 </head>
 
 <body>
-    <header class="contactosHeader">
+    <header class="contactos_header">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="main_nav">
             <div class="container">
                 <a href="../index.html"><img class="rounded float-start" src="../assets/img/Exlusivo.png"
@@ -41,15 +41,16 @@
             </div>
         </nav>
     </header>
-    <main class="contactosMain">   
+    <main class="contactos_main">
         <section class="contenedorcon sombracon">
             <h2>Contáctenos</h2>
             <form action="#" method="#" class="row g-3 needs-validation formulariocon" novalidate>
 
                 <fieldset>
-                    <legend>Si tiene alguna duda o comentario, por favor contáctenos o escríbenos, para tener el gusto de
+                    <legend>Si tiene alguna duda o comentario, por favor contáctenos o escríbenos, para tener el gusto
+                        de
                         atenderte. </legend>
-    
+
                     <div class="contenedor-campos">
                         <div class="campo">
                             <label for="nombre" class="form-label">Nombre</label>
@@ -62,10 +63,11 @@
                                 Por favor, ingrese un nombre.
                             </div>
                         </div>
-    
+
                         <div class="campo">
                             <label for="celular" class="form-label">Celular</label>
-                            <input type="tel" class="form-control input-text" id="validationCustom02" name="celular" placeholder="&#Xf095;   Tu Telefono" required>
+                            <input type="tel" class="form-control input-text" id="validationCustom02" name="celular"
+                                placeholder="&#Xf095;   Tu Telefono" required>
                             <div class="valid-feedback">
                                 ¡Muy Bien!
                             </div>
@@ -73,43 +75,47 @@
                                 Por favor, ingrese numero celular.
                             </div>
                         </div>
-    
+
                         <div class="campo">
                             <label for="Email" class="form-label">Email</label>
                             <div class="input-group has-validation">
                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                <input type="email" class="form-control input-text" id="validationCustomUsername" aria-describedby="inputGroupPrepend"  name="correo" placeholder="Tu Correo" required>
+                                <input type="email" class="form-control input-text" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" name="correo" placeholder="Tu Correo" required>
                                 <div class="invalid-feedback">
                                     Por favor, ingrese correo electronico.
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="campo">
                             <label for="Mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control input-text" id="validationTextarea" name="mensaje" placeholder="&#Xf039;   Ejemplo obligatorio de área de texto" required></textarea>
+                            <textarea class="form-control input-text" id="validationTextarea" name="mensaje"
+                                placeholder="&#Xf039;   Ejemplo obligatorio de área de texto" required></textarea>
                             <div class="invalid-feedback">
-                              Ingrese un mensaje en el área de texto.
+                                Ingrese un mensaje en el área de texto.
                             </div>
                         </div>
-    
+
                         <div class="campo__checkbox">
                             <div class="form-check">
-                                <input class="form-check-input checkbox" type="checkbox" name="acepto" value="" id="invalidCheck" required>
-                                <label class="form-check-label"  id="checkbox" for="invalidCheck">Estoy de acuerdo con los Términos de Condiciones y Protección de Datos,
-                                declaro que he leído la información suministrada por ustedes.
+                                <input class="form-check-input checkbox" type="checkbox" name="acepto" value=""
+                                    id="invalidCheck" required>
+                                <label class="form-check-label" id="checkbox" for="invalidCheck">Estoy de acuerdo con
+                                    los Términos de Condiciones y Protección de Datos,
+                                    declaro que he leído la información suministrada por ustedes.
                                 </label>
                                 <div class="invalid-feedback">
                                     Debes estar de acuerdo antes de enviar.
                                 </div>
                             </div>
-                        </div> 
-                    </div>  
-                       
-                        <div class="Botones_contacto">
-                            <input class="btn btn-primary boton w-sm-100" type="submit" value="Enviar">
-                            <input class="boton w-sm-100" type="reset" value="Limpiar">
                         </div>
+                    </div>
+
+                    <div class="botones_contacto">
+                        <input class="btn btn-primary boton w-sm-100" type="submit" value="Enviar">
+                        <input class="boton w-sm-100" type="reset" value="Limpiar">
+                    </div>
                 </fieldset>
             </form>
             <div class="contenido-herocon">
@@ -134,9 +140,9 @@
                         <br></br>
                         <span>Festivos: Cerrado</span>
                     </p>
-    
+
                 </div>
-    
+
                 <div class="ubicacioncon">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass" width="68"
                         height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
@@ -161,10 +167,10 @@
                         <span>Barrio Ingles</span>
                     </p>
                 </div>
-    
+
                 <div class="ubicacioncon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="68"
-                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile"
+                        width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <rect x="7" y="4" width="10" height="16" rx="1" />
@@ -176,13 +182,13 @@
                             <strong>Celular</strong>
                         </span>
                         <br></br>
-                        <span>+57 310 7707404</span>                                               
+                        <span>+57 310 7707404</span>
                     </p>
                 </div>
                 <div class="ubicacioncon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="68" height="68"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none" stroke-linecap="round"
-                        stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="68"
+                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4DADC2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <rect x="3" y="5" width="18" height="14" rx="2" />
                         <polyline points="3 7 12 13 21 7" />
@@ -192,32 +198,29 @@
                             <strong>Email</strong>
                         </span>
                         <br></br>
-                        <span>exclusivogarageestrella@gmail.com</span>                        
+                        <span>exclusivogarageestrella@gmail.com</span>
                     </p>
                 </div>
-    
+
                 <div class="map-responsivecon">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0649101693703!2d-74.12578998517937!3d4.582368243948043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98d34e0c1e21%3A0x603dfdc59e5c165e!2sCra.%2025B%20%2341-29%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1624150139252!5m2!1ses-419!2sco"
                         width="540" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-        </section>     
-        <aside>
-            
-        </aside>
-        
+        </section>       
+
     </main>
     <footer class="py-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-start">Copyright &copy; Manfred Anderson Romero</div>
                 <div class="col-lg-4 my-3 my-lg-0 d-flex justify-content-center align-items-center">
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i
+                    <a class="btn btn-dark--redes btn-social mx-2" href="#!" aria-label="Twitter"><i
                             class="fa-brands fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
+                    <a class="btn btn-dark--redes btn-social mx-2" href="#!" aria-label="Facebook"><i
                             class="fa-brands fa-facebook"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i
+                    <a class="btn btn-dark--redes btn-social mx-2" href="#!" aria-label="LinkedIn"><i
                             class="fa-brands fa-linkedin"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
@@ -227,9 +230,8 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 

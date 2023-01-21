@@ -1,0 +1,34 @@
+.servicios_main {
+    height: 125vh;
+
+    section {
+        div {
+            div {
+                
+                .text-muted {
+                    padding: 0;
+                    color: #d6e5e7 !important;
+                    font-family: $fuentetextos;
+                }
+            }
+
+            div {
+                div {
+                    div {
+                        .img_servicios {
+                            height: 130px;
+                            width: 130px;
+                            border: groove 0.4em rgba(76, 129, 129, 0.781);
+                            border-radius: 15px 50px 30px;
+                        }
+                    }
+
+                    .my-3 {
+                        color: #fff;
+                        font-family: $fuentetextos;
+                    }                    
+                }             
+            }
+        }
+    }
+}

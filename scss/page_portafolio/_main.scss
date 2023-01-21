@@ -1,0 +1,161 @@
+.portafolio_main {
+    #portafolio {
+        height: 178vh;
+
+        .text-center {
+
+            .section-heading {
+                padding-top: 2rem;
+            }
+
+            .section-subheading {
+                font-family: $fuentetextos;
+                padding: 1.5rem 0 3rem 0;
+            }
+        }
+
+        .portafolio-item {
+            max-width: 26rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            .portafolio-link {
+                position: relative;
+                display: block;
+                margin: 0 auto;
+
+                &:hover {
+                    .portafolio-hover {
+                        opacity: 1;
+                    }
+
+                }
+
+                .portafolio-hover {
+                    display: flex;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(126, 109, 47, 0.5);
+                    align-items: center;
+                    justify-content: center;
+                    opacity: 0;
+                    transition: opacity ease-in-out 0.25s;
+                    border-top-left-radius: 3%;
+                    border-top-right-radius: 3%;
+
+                    .portafolio-hover-content {
+                        font-size: 1.25rem;
+                        color: white;
+                    }
+                }
+
+                .portafolio-radio-top {
+                    border-top-left-radius: 3%;
+                    border-top-right-radius: 3%;
+                }
+            }
+
+            .portafolio-radio-bottom {
+                border-bottom-left-radius: 10%;
+                border-bottom-right-radius: 10%;
+            }
+
+            .portafolio-caption {
+                padding: 1.5rem;
+                text-align: center;
+                background-color: #726a3f;
+                color: rgba(255, 255, 255, 0.9);
+
+                .portafolio-caption-heading {
+                    font-size: 1.5rem;
+                    font-family: $fuenteprincipal;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                }
+
+                .portafolio-caption-subheading {
+                    font-style: italic;
+                    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    color: rgba(255, 255, 255, 0.5);
+                }
+            }
+
+        }
+
+    }
+
+    .portafolio-modal {
+        .modal-dialog {
+            margin: 1rem;
+            max-width: 100vw;
+
+            .modal-content {
+                padding-top: 6rem;
+                padding-bottom: 6rem;
+                text-align: center;
+                background: $backgroundmodal;
+
+                .modal-body {
+                    img {
+                        border-radius: 5%;
+                        height: 500px;
+                        width: 500px;
+                    }
+
+                    .text-muted {
+                        color: #fff !important;
+                        padding: 0;
+                    }
+                }
+
+                .h2,
+                h2 {
+                    font-size: 3rem;
+                    line-height: 3rem;
+                    font-family: $fuenteprincipal;
+                    font-weight: 900;
+                    color: #fff;
+                }
+
+                p {
+                    margin-bottom: 2rem;
+                    font-family: $fuentetextos;
+                    font-weight: 300;
+                }
+
+                p.item-intro {
+                    font-style: italic;
+                    margin-bottom: 2rem;
+                    font-family: $fuentetextos;
+                }
+
+                ul.list-inline {
+                    margin-bottom: 2rem;
+                    font-family: $fuentesegundaria;
+                }
+
+                img {
+                    margin-bottom: 2rem;                   
+                    border-radius: 25%;
+                    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(2,2,2,0.8267682072829132) 100%);
+                }
+            }
+        }
+
+        .close-modal {
+            width: 2rem !important;
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            height: 3rem;
+            cursor: pointer;
+            background-color: transparent;
+
+            &:hover {
+                opacity: 0.3;
+            }
+        }
+
+    }
+}

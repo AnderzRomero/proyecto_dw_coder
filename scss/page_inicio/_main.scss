@@ -2,22 +2,13 @@
     height: 160vh;
 
     .page-section {
-        padding: 8rem 0;
-
-        .section-heading,
-        .h2 {
-            font-size: 2.5rem;
-            margin-top: 0;
-            margin-bottom: 1rem;
-            color: rgba(255, 255, 255, 0.897);
-            font-family: $fuentetextos;
-        }
+        padding: 8rem 0;        
 
         .history {
             img {
                 width: 20rem;
                 height: 20rem;
-                border: 0.5rem solid rgba(0, 0, 0, 0.486);
+                border: 0.5rem solid rgba(255, 255, 255, 0.877);
             }
 
             .setion-h4 {
@@ -33,11 +24,7 @@
             }
         }
     }
-    .clientes {
-        .section-heading{
-            font-family: $fuentetextos;
-        }
-    }
+    
 
     #about {
         padding-top: 7rem;

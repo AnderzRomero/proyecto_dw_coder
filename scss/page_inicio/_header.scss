@@ -26,21 +26,21 @@
             font-family: var($fuentesegundaria);
         }
 
-        .btn-primary {
-            background-color: #a88b22;
-            border-color: #fff;
+        // .btn-primary {
+        //     background-color: #a88b22;
+        //     border-color: #fff;
 
-            &:hover {
-                color: #fff;
-                background-color: #695c2be5;
-                border-color: #fff;
-            }
+        //     &:hover {
+        //         color: #fff;
+        //         background-color: #695c2be5;
+        //         border-color: #fff;
+        //     }
 
-            &:active:focus {
-                color: white;
-                background-color: black;
-                border-color: #b4931be5;
-            }
-        }
+        //     &:active:focus {
+        //         color: white;
+        //         background-color: black;
+        //         border-color: #b4931be5;
+        //     }
+        // }
     }
 }

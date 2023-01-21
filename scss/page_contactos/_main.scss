@@ -1,0 +1,115 @@
+.contactos_main {
+    height: 140vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/img/map-image.png);
+
+    .contenedorcon {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+
+        h2 {
+            margin: 2rem auto;
+            text-align: center;
+            color: var(--blanco);
+            font-size: 2.5rem;
+            background: rgba(182, 164, 62, 0.20);
+            border-radius: 3rem;
+        }
+
+        .formulariocon {
+            background-color: rgba(144, 161, 163, 0.2);
+            margin: 0 auto;
+            padding: 2rem;
+            border-radius: 2rem;
+            font-size: 90%;
+
+            fieldset {
+                border: none;
+
+                legend {
+                    text-align: center;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    margin-bottom: 2rem;
+                    color: var(--blanco);
+                }
+
+                .contenerdor-campos {
+                    .campo {
+                        label {}
+
+                        input {}
+
+                        .valid-feedback {}
+
+                        .invalid-feedback {}
+                    }
+                }
+
+                .botones_contacto {
+                    display: flex;
+                    justify-content: center;
+                    gap: 5rem;
+
+                    input {}
+
+                    input {}
+                }
+            }
+        }
+
+        .contenido-herocon {
+            background-color: rgba(144, 161, 163, 0.2);
+            border-radius: 3rem;
+            width: 100%;
+            height: 100%;
+            margin-top: 2rem;
+            align-items: center;
+            justify-content: center;
+            gap: 5rem;
+            font-size: 75%;
+            padding: 2rem;
+
+            .ubicacioncon {
+                max-width: 120rem;
+                display: flex;
+                align-items: flex-start;
+
+                svg {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 2rem;
+                }
+
+                p {
+                    color: var(--blanco);
+                    margin: 1rem;
+
+                    span {}
+                }
+            }
+
+            .map-responsivecon {
+                overflow: hidden;
+                position: relative;
+                width: auto;
+                margin-top: 2rem;
+
+                iframe {
+                    width: 100%;
+                    border-radius: 2rem;
+                }
+            }
+        }
+    }
+
+    .sombracon {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        box-shadow: 0px 5px 15px 0px rgba(182, 164, 62, 0.9);
+        padding: 2rem;
+        border-radius: 5rem;
+    }
+}
