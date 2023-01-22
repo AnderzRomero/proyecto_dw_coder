@@ -16,14 +16,14 @@
             font-style: italic;
             line-height: 1.5rem;
             margin-bottom: 25px;
-            font-family: var($fuenteprincipal);            
+            font-family: var($fuenteprincipal) !important;            
         }
 
         .inicioheader-heading {
             font-weight: 700;
             line-height: 3.25rem;
             margin-bottom: 2rem;            
-            font-family: var($fuentesegundaria);
+            font-family: var($fuentetextos) !important;
         }
 
         // .btn-primary {

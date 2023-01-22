@@ -1,9 +1,15 @@
 .equipo_main {
     height: 100vh;
 
-    section {
+    .page-section {
         div {
-            div {}
+            div {
+                .section-subheading {
+                    font-family: $fuentetextos;
+                    color: rgb(211, 207, 207) !important;
+                    padding-bottom: 2rem;
+                }
+            }
 
             div {
                 div {

@@ -27,6 +27,13 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
+body .inicioheader-heading{
+    font-family: $fuentecuarta;
+}
+body .inicioheader-subheading{
+    font-family: $fuenteprincipal;
+}
+
 header {
     height: 15vh;
     background-color: #0000;
@@ -47,7 +54,8 @@ footer {
     margin-top: 0;
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.897);
-    font-family: $fuentetextos;
+    font-family: $fuenteprincipal;
+    font-weight: 900;
 }
 
 .btn-dark--redes {

@@ -9063,6 +9063,12 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.7); }
 
+body .inicioheader-heading {
+  font-family: "Abril Fatface", cursive; }
+
+body .inicioheader-subheading {
+  font-family: "Oswald", sans-serif; }
+
 header {
   height: 15vh;
   background-color: #0000; }
@@ -9080,7 +9086,8 @@ footer {
   margin-top: 0;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.897);
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  font-weight: 900; }
 
 .btn-dark--redes {
   --bs-btn-hover-bg: #695c2be5; }
@@ -9128,13 +9135,13 @@ footer {
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     border: 1px solid white; }
   #main_nav div #navbarResponsive .navbar-nav .nav-item .nav-link {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     font-size: 0.95rem;
     color: #fff;
     letter-spacing: 0.0625em; }
@@ -9157,12 +9164,12 @@ footer {
     font-style: italic;
     line-height: 1.5rem;
     margin-bottom: 25px;
-    font-family: var("Oswald", sans-serif); }
+    font-family: var("Oswald", sans-serif) !important; }
   .inicio_header .container .inicioheader-heading {
     font-weight: 700;
     line-height: 3.25rem;
     margin-bottom: 2rem;
-    font-family: var("Lora", serif); }
+    font-family: var("Source Sans Pro", sans-serif) !important; }
 
 .nosotros {
   height: 160vh; }
@@ -9174,12 +9181,14 @@ footer {
       border: 0.5rem solid rgba(255, 255, 255, 0.877); }
     .nosotros .page-section .history .setion-h4 {
       color: #fff;
-      font-family: "Source Sans Pro", sans-serif; }
+      font-family: "Oswald", sans-serif;
+      font-weight: 900; }
     .nosotros .page-section .history .text-muted {
       --bs-text-opacity: 0.5;
       color: #fff !important;
       padding: 0 18rem;
-      font-family: "Source Sans Pro", sans-serif; }
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 200; }
   .nosotros #about {
     padding-top: 7rem; }
 
@@ -9199,13 +9208,13 @@ footer a {
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     border: 1px solid white; }
   #main_nav div #navbarResponsive .navbar-nav .nav-item .nav-link {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     font-size: 0.95rem;
     color: #fff;
     letter-spacing: 0.0625em; }
@@ -9228,7 +9237,7 @@ footer a {
     border-radius: 15px 50px 30px; }
   .servicios_main section div div div .my-3 {
     color: #fff;
-    font-family: "Source Sans Pro", sans-serif; }
+    font-family: "Oswald", sans-serif; }
 
 footer a {
   color: white; }
@@ -9246,13 +9255,13 @@ footer a {
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     border: 1px solid white; }
   #main_nav div #navbarResponsive .navbar-nav .nav-item .nav-link {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     font-size: 0.95rem;
     color: #fff;
     letter-spacing: 0.0625em; }
@@ -9381,13 +9390,13 @@ footer a {
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     border: 1px solid white; }
   #main_nav div #navbarResponsive .navbar-nav .nav-item .nav-link {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     font-size: 0.95rem;
     color: #fff;
     letter-spacing: 0.0625em; }
@@ -9399,18 +9408,22 @@ footer a {
 
 .equipo_main {
   height: 100vh; }
-  .equipo_main section div div div .team-member {
+  .equipo_main .page-section div div .section-subheading {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #d3cfcf !important;
+    padding-bottom: 2rem; }
+  .equipo_main .page-section div div div .team-member {
     margin-bottom: 3rem;
     text-align: center; }
-    .equipo_main section div div div .team-member img {
+    .equipo_main .page-section div div div .team-member img {
       width: 14rem;
       height: 14rem;
       border: 0.5rem solid rgba(0, 0, 0, 0.1); }
-    .equipo_main section div div div .team-member .img_equipo {
+    .equipo_main .page-section div div div .team-member .img_equipo {
       height: 200px;
       width: 200px;
       border: 5px solid #9aa3a3; }
-    .equipo_main section div div div .team-member h4, .equipo_main section div div div .team-member .h4, .equipo_main section div div div .team-member .h4 {
+    .equipo_main .page-section div div div .team-member h4, .equipo_main .page-section div div div .team-member .h4, .equipo_main .page-section div div div .team-member .h4 {
       margin-top: 1.5rem;
       margin-bottom: 0; }
 
@@ -9430,13 +9443,13 @@ footer a {
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     border: 1px solid white; }
   #main_nav div #navbarResponsive .navbar-nav .nav-item .nav-link {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", serif;
     font-size: 0.95rem;
     color: #fff;
     letter-spacing: 0.0625em; }
@@ -9466,7 +9479,8 @@ footer a {
       margin: 0 auto;
       padding: 2rem;
       border-radius: 2rem;
-      font-size: 90%; }
+      font-size: 90%;
+      font-family: "Source Sans Pro", sans-serif; }
       .contactos_main .contenedorcon .formulariocon fieldset {
         border: none; }
         .contactos_main .contenedorcon .formulariocon fieldset legend {
@@ -9490,7 +9504,8 @@ footer a {
       justify-content: center;
       gap: 5rem;
       font-size: 75%;
-      padding: 2rem; }
+      padding: 2rem;
+      font-family: "Roboto Slab", serif; }
       .contactos_main .contenedorcon .contenido-herocon .ubicacioncon {
         max-width: 120rem;
         display: flex;
