@@ -101,13 +101,13 @@
                         border-radius: 5%;
                         height: 500px;
                         width: 500px;
-                    }
+                    }                   
 
                     .text-muted {
                         color: #fff !important;
                         padding: 0;
                     }
-                }
+                }                
 
                 .h2,
                 h2 {
@@ -158,4 +158,12 @@
         }
 
     }
+
+    @media (max-width: 575.98px) {
+        .modal-body img {
+            height: 100% !important;
+            width: 100% !important;
+        }      
+    }
 }
+

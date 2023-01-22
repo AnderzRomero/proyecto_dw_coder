@@ -1,35 +1,34 @@
-
 @media (max-width: 575.98px) {
     body {
         width: auto !important;
         height: auto !important;
     }
 
-    header.inicioheader {
-        padding-top: 12rem !important;              
+    header.inicio_header {
+        padding-top: 12rem !important;
     }
 
     main {
         height: auto !important;
-       
     }
 
-    main.serviciosMain {
+    main.servicios_main {
         padding-top: 2rem;
         height: auto !important;
     }
 
-    main.portafolioMain {
+    main.portafolio_main {
         padding-top: 2rem;
         height: auto !important;
     }
-    main.equipoMain {
+
+    main.equipo_main {
         padding-top: 1rem;
-        height: auto !important;        
+        height: auto !important;
     }
 
     footer {
-        height: 25vh;        
+        height: 25vh;
         text-align: center;
         font-size: 0.7rem;
         margin-top: 1rem;
@@ -39,7 +38,7 @@
         padding-top: 0.5rem !important;
     }
 
-    .portafolioMain,
+    .portafolio_main,
     .portafolio-item {
         display: flex;
         flex-direction: column;
@@ -54,17 +53,16 @@
         width: 80%;
         height: auto;
     }
+
     .portafolio-modal .modal-body {
         display: flex;
         flex-direction: column;
-        align-items: center !important;        
+        align-items: center !important;
     }
 
-    .modal-body img {
-        height: 300px !important;
-        width: 300px !important;
-        
-    }
+    
+
+    
 
     .portafolio-modal .modal-content h2,
     .portafolio-modal .modal-content .h2 {
@@ -82,17 +80,18 @@
     .portafolio-modal .modal-content {
         padding-top: 2.5rem !important;
     }
+
     #portafolio .portafolio-item .portafolio-link .portafolio-hover {
         margin-left: 10%;
         width: 80% !important;
         height: 100% !important;
     }
 
-    #mainNav {
+    #main_nav {
         background-color: rgba(0, 0, 0, 0.8);
     }
 
-    #mainNav img {
+    #main_nav img {
         width: 18%;
         height: 18%;
         margin-left: 0rem;
@@ -102,11 +101,12 @@
     .navbar>.container {
         justify-content: center;
     }
+
     .container {
         --bs-gutter-x: 0.5rem;
         width: auto;
     }
-    
+
 
     .page-section h3.section-subheading,
     .page-section .section-subheading.h3 {
@@ -170,40 +170,45 @@
         width: auto !important;
         height: auto !important;
     }
-    header.inicioheader {
-        padding-top: 12rem !important;              
+
+    header.inicio_header {
+        padding-top: 12rem !important;
     }
 
     main {
         height: auto !important;
-       
+
     }
 
-    main.serviciosMain {
+    main.servicios_main {
         padding-top: 2rem;
         height: auto !important;
     }
 
-    main.portafolioMain {        
+    main.portafolio_main {
         height: auto !important;
     }
-    main.equipoMain {
+
+    main.equipo_main {
         padding-top: 1rem;
-        height: auto !important;        
+        height: auto !important;
     }
-    #mainNav {
+
+    #main_nav {
         background-color: rgba(0, 0, 0, 0.8);
     }
-    #mainNav img {
+
+    #main_nav img {
         width: 25%;
         height: 25%;
         margin-left: 0rem;
         padding: 0;
     }
+
     .page-section {
         padding: 5rem 0 !important;
     }
-    
+
     .text-muted {
         padding: 0 !important;
     }
@@ -211,12 +216,12 @@
     .portafolio-modal .modal-body {
         display: flex;
         flex-direction: column;
-        align-items: center !important;        
+        align-items: center !important;
     }
 
     .modal-body img {
         height: 400px !important;
-        width: 400px !important;        
+        width: 400px !important;
     }
 
     .portafolio-modal .modal-content h2,
@@ -227,6 +232,7 @@
     .portafolio-modal .modal-content .text-muted {
         color: #fff !important;
     }
+
     #portafolio .portafolio-item .portafolio-link .portafolio-hover {
         width: 80% !important;
         height: 100% !important;
@@ -240,13 +246,13 @@
         padding-top: 2.5rem !important;
     }
 
-    footer { 
-        height: auto !important;        
+    footer {
+        height: auto !important;
         text-align: center;
         font-size: 0.7rem;
         margin-top: 1rem;
     }
-    
+
 }
 
 @media (max-width: 991.98px) {
@@ -255,67 +261,73 @@
         width: auto !important;
         height: auto !important;
     }
-    header.inicioheader {
-        padding-top: 15rem !important;              
+
+    header.inicio_header {
+        padding-top: 15rem !important;
     }
 
     main {
         height: auto !important;
-       
+
     }
 
-    main.serviciosMain {
+    main.servicios_main {
         padding-top: 2rem;
         height: auto !important;
     }
 
-    main.portafolioMain {        
+    main.portafolio_main {
         height: auto !important;
     }
-    main.equipoMain {
+
+    main.equipo_main {
         padding-top: 1rem;
-        height: auto !important;        
+        height: auto !important;
     }
 
-    footer { 
-        height: auto !important;        
+    footer {
+        height: auto !important;
         text-align: center;
         font-size: 0.7rem;
         margin-top: 1rem;
     }
 
-    #mainNav {
+    #main_nav {
         background-color: rgba(0, 0, 0, 0.8);
     }
-    #mainNav img {
+
+    #main_nav img {
         width: 28%;
         height: 28%;
         margin-left: 0rem;
         padding: 0;
     }
+
     .page-section {
         padding: 6rem 0 !important;
     }
+
     .text-muted {
         padding: 0 !important;
     }
-    
+
     .img-fluid,
     .portafolio-caption {
         max-width: none;
         width: 80%;
         height: auto;
     }
+
     .portafolio-modal .modal-body {
         display: flex;
         flex-direction: column;
-        align-items: center !important;        
+        align-items: center !important;
     }
 
     .modal-body img {
         height: 500px !important;
         width: 500px !important;
-        
+
     }
 
     .portafolio-modal .modal-content h2,
@@ -334,11 +346,12 @@
     .portafolio-modal .modal-content {
         padding-top: 2.5rem !important;
     }
+
     #portafolio .portafolio-item .portafolio-link .portafolio-hover {
         width: 80% !important;
         height: 100% !important;
     }
-    
+
 }
 
 @media (min-width: 768px) {
@@ -360,7 +373,7 @@
 
     .formulariocon legend {
         font-size: 1.7rem;
-    }    
+    }
 
     .map-responsivecon {
         grid-column: 1 / 3;
@@ -368,7 +381,7 @@
 }
 
 @media (min-width: 992px) {
-    #mainNav {
+    #main_nav {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
         border: none;
@@ -376,41 +389,41 @@
         transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
 
-    #mainNav .navbar-brand {
+    #main_nav .navbar-brand {
         font-size: 1.5em;
         transition: font-size 0.3s ease-in-out;
     }
 
-    #mainNav .navbar-brand img {
+    #main_nav .navbar-brand img {
         height: 2rem;
         transition: height 0.3s ease-in-out;
     }
 
-    #mainNav.navbar-shrink {
+    #main_nav.navbar-shrink {
         padding-top: 1rem;
         padding-bottom: 1rem;
         background-color: rgba(0, 0, 0, 0.3);
     }
 
-    #mainNav.navbar-shrink .navbar-brand {
+    #main_nav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
     }
 
-    #mainNav.navbar-shrink .navbar-brand svg,
-    #mainNav.navbar-shrink .navbar-brand img {
+    #main_nav.navbar-shrink .navbar-brand svg,
+    #main_nav.navbar-shrink .navbar-brand img {
         height: 1.5rem;
     }
 
-    #mainNav .navbar-nav .nav-item {
+    #main_nav .navbar-nav .nav-item {
         margin-right: 1rem;
     }
 
-    #mainNav .navbar-nav .nav-item:last-child {
+    #main_nav .navbar-nav .nav-item:last-child {
         margin-right: 0;
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
     .formulariocon {
         font-size: 100%;
     }
@@ -424,12 +437,14 @@
         font-size: 100%;
         gap: 2rem;
     }
+
     .contenido-herocon {
         font-size: 90%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
+
     .map-responsivecon {
         grid-column: 1 / 3;
     }
