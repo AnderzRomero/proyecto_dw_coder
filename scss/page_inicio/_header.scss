@@ -3,44 +3,27 @@
     padding-bottom: 25rem;
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/img/header-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/img/header-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
     height: 100vh;
 
-    .container {        
+    .container {
         .inicioheader-subheading {
             font-weight: 600;
             font-style: italic;
             line-height: 1.5rem;
             margin-bottom: 25px;
-            font-family: var($fuenteprincipal) !important;            
+            font-family: var($fuenteprincipal) !important;
         }
 
         .inicioheader-heading {
             font-weight: 700;
             line-height: 3.25rem;
-            margin-bottom: 2rem;            
+            margin-bottom: 2rem;
             font-family: var($fuentetextos) !important;
         }
-
-        // .btn-primary {
-        //     background-color: #a88b22;
-        //     border-color: #fff;
-
-        //     &:hover {
-        //         color: #fff;
-        //         background-color: #695c2be5;
-        //         border-color: #fff;
-        //     }
-
-        //     &:active:focus {
-        //         color: white;
-        //         background-color: black;
-        //         border-color: #b4931be5;
-        //     }
-        // }
     }
 }
