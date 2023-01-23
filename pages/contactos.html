@@ -9,7 +9,7 @@
     <meta name="author" content="Manfred Amderson Romero">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/img/Exlusivo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/Exlusivo.jpg" type="image/x-icon">
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,12 @@
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,500;1,500&family=Oswald:wght@300;400&family=Roboto+Slab&family=Source+Sans+Pro:ital@0;1&display=swap"
         rel="stylesheet">
     <!--Hoja de estilos CSS-->
-    <link rel="stylesheet" href="../css/style.css" as="style">
+    <!-- Preload -->
+    <link rel="preload" href="../css/style.css" as="style">
+    <link rel="stylesheet" href="../css/style.css">
+    
     <!-- Font Awesome icons (free version)-->
+    <link rel="preload" href="https://use.fontawesome.com/releases/v6.1.0/js/all.js" as="script">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <title>Contactos</title>
 </head>
@@ -47,7 +51,7 @@
     </header>
     <main class="contactos_main">
         <section class="contenedorcon sombracon">
-            <h2 class="section-heading">Contáctenos</h2>
+            <h2 class="section-heading-contac">Contáctenos</h2>
             <form action="#" method="#" class="row g-3 needs-validation formulariocon" novalidate>
 
                 <fieldset>
@@ -117,8 +121,8 @@
                     </div>
 
                     <div class="botones_contacto">
-                        <input class="btn btn-primary boton w-sm-100" type="submit" value="Enviar">
-                        <input class="boton w-sm-100" type="reset" value="Limpiar">
+                        <input class="btn btn-primary-general boton w-sm-100" type="submit" value="Enviar">
+                        <input class="btn btn-primary-general w-sm-100" type="reset" value="Limpiar">
                     </div>
                 </fieldset>
             </form>
@@ -202,7 +206,7 @@
                             <strong>Email</strong>
                         </span>
                         <br></br>
-                        <span>exclusivogarageestrella@gmail.com</span>
+                        <span width="100">exclusivogarage@gmail.com</span>
                     </p>
                 </div>
 

@@ -10,7 +10,10 @@
     <meta name="author" content="Manfred Amderson Romero">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/img/Exlusivo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/Exlusivo.jpg" type="image/x-icon">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="portafolio.html" as="document">
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +21,12 @@
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,500;1,500&family=Oswald:wght@300;400&family=Roboto+Slab&family=Source+Sans+Pro:ital@0;1&display=swap"
         rel="stylesheet">
     <!--Hoja de estilos CSS-->
-    <link rel="stylesheet" href="../css/style.css" as="style">
+    <!-- Preload -->
+    <link rel="preload" href="../css/style.css" as="style">
+    <link rel="stylesheet" href="../css/style.css">
+
     <!-- Font Awesome icons (free version)-->
+    <link rel="preload" href="https://use.fontawesome.com/releases/v6.1.0/js/all.js" as="script">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <title>Servicios</title>
 </head>
@@ -51,15 +58,18 @@
         <section class="page-section">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase pb-4">Algunos de Nuestros Servicios</h2>
+                    <h2 class="section-heading-colab text-uppercase pb-4">Algunos de Nuestros Servicios</h2>
                     <h3 class="section-subheading text-muted pb-3">Aqui podras encontrar los servicios mas importantes
                     </h3>
                 </div>
                 <div class="row text-center p-4">
                     <div class="col-md-4">
                         <div>
-                            <img class="mx-auto img_servicios" src="../assets/img/servicios/caliper.jpg"
+                            <picture>
+                                <source loading="lazy" type="image/webp" class="mx-auto img_servicios" srcset="../assets/img/servicios/caliper.webp">
+                                <img loading="lazy" class="mx-auto img_servicios" src="../assets/img/servicios/caliper.jpg"
                                 alt="caliper" />
+                            </picture>
                         </div>
                         <h4 class="my-3">Pintura Calipers</h4>
                         <p class="text-muted">Se realiza la limpieza del caliper, para luego proceder con la pintada y
@@ -67,7 +77,11 @@
                     </div>
                     <div class="col-md-4">
                         <div>
-                            <img class="mx-auto img_servicios" src="../assets/img/servicios/rines.jpg" alt="rines" />
+                            <picture>
+                                <source loading="lazy" type="image/webp" class="mx-auto img_servicios" srcset="../assets/img/servicios/rines.webp">
+                                <img loading="lazy" class="mx-auto img_servicios" src="../assets/img/servicios/rines.jpg"
+                                alt="rines" />
+                            </picture>
                         </div>
                         <h4 class="my-3">Pintura Rines</h4>
                         <p class="text-muted">Se realiza la limpieza del rin, y se prepara para la pintada si se
@@ -75,8 +89,11 @@
                     </div>
                     <div class="col-md-4">
                         <div>
-                            <img class="mx-auto img_servicios" src="../assets/img/servicios/detailingmoto.jpg"
+                            <picture>
+                                <source loading="lazy" type="image/webp" class="mx-auto img_servicios" srcset="../assets/img/servicios/detailingmoto.webp">
+                                <img loading="lazy" class="mx-auto img_servicios" src="../assets/img/servicios/detailingmoto.jpg"
                                 alt="moto" />
+                            </picture>
                         </div>
                         <h4 class="my-3">Detailing Moto</h4>
                         <p class="text-muted">Limpieza total de la motocicleta, se restaura pintura en las partes
@@ -86,8 +103,11 @@
                 <div class="row text-center p-4">
                     <div class="col-md-4">
                         <div>
-                            <img class="mx-auto img_servicios" src="../assets/img/servicios/detailingcarro.jpg"
+                            <picture>
+                                <source loading="lazy" type="image/webp" class="mx-auto img_servicios" srcset="../assets/img/servicios/detailingcarro.webp">
+                                <img loading="lazy" class="mx-auto img_servicios" src="../assets/img/servicios/detailingcarro.jpg"
                                 alt="carro" />
+                            </picture>
                         </div>
                         <h4 class="my-3">Detailing Carros</h4>
                         <p class="text-muted">Limpieza profunda como el cliente lo desee, puede ser externo o interno,
@@ -95,8 +115,11 @@
                     </div>
                     <div class="col-md-4">
                         <div>
-                            <img class="mx-auto img_servicios" src="../assets/img/servicios/tapiceria.jpg"
+                            <picture>
+                                <source loading="lazy" type="image/webp" class="mx-auto img_servicios" srcset="../assets/img/servicios/tapiceria.webp">
+                                <img loading="lazy" class="mx-auto img_servicios" src="../assets/img/servicios/tapiceria.jpg"
                                 alt="tapiceria" />
+                            </picture>
                         </div>
                         <h4 class="my-3">Limpieza Tapiceria</h4>
                         <p class="text-muted">Se realiza limpieza profunda de la tapiceria si se requiere, restaurando
@@ -104,7 +127,11 @@
                     </div>
                     <div class="col-md-4">
                         <div>
-                            <img class="mx-auto img_servicios" src="../assets/img/servicios/motor.jpg" alt="motor" />
+                            <picture>
+                                <source loading="lazy" type="image/webp" class="mx-auto img_servicios" srcset="../assets/img/servicios/motor.webp">
+                                <img loading="lazy" class="mx-auto img_servicios" src="../assets/img/servicios/motor.jpg"
+                                alt="motor" />
+                            </picture>
                         </div>
                         <h4 class="my-3">Restauracion Motor</h4>
                         <p class="text-muted">Se realiza una restauracion total de motor en cuanto a pintura y limpieza

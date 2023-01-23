@@ -17,25 +17,6 @@
     border: 3px solid #ffffff;
 }
 
-ul {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-}
-
-li {
-    color: green
-}
-
-.no-webp li.webp {
-    color: red;
-}
-
-.no-setclasses li.setclasses {
-    color: red;
-}
-
-
 body {
     width: auto;
     height: auto;
@@ -118,6 +99,15 @@ footer {
     --bs-btn-disabled-bg: #041938;
     --bs-btn-disabled-border-color: #041938;
 }
+
+.section-heading-colab {
+    @extend .section-heading;    
+}
+
+.section-heading-contac {
+    @extend .section-heading;    
+}
+
 
 @import "./inicio";
 @import "./servicios";
