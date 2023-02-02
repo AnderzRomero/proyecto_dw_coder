@@ -9058,7 +9058,7 @@ body {
   width: auto;
   height: auto;
   margin: 0;
-  background: linear-gradient(90deg, #777141 0%, black 15%, black 85%, #777141 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../assets/img/fondotextura.jpg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.7); }
