@@ -9079,7 +9079,7 @@ main {
 footer {
   height: 15vh;
   color: #fff;
-  background: linear-gradient(0deg, black 0%, #5b5937 50%, #161715 100%, black 100%); }
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.4) 0%, rgba(84, 74, 30, 0.4) 0%, rgba(113, 99, 41, 0.4) 40%, rgba(21, 80, 130, 0.4) 100%); }
 
 .section-heading, .section-heading-colab, .section-heading-contac {
   font-size: 2.5rem;
