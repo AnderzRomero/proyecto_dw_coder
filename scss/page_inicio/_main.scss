@@ -2,7 +2,7 @@
     height: 160vh;
 
     .page-section {
-        padding: 8rem 0;        
+        padding: 4rem 0;
 
         .history {
             img {
@@ -26,9 +26,25 @@
             }
         }
     }
-    
+
 
     #about {
         padding-top: 7rem;
+    }
+
+    .clientes {        
+
+        .colab {   
+            width: auto;         
+            border-radius: 100%;
+            box-shadow: 0 6px 20px rgba(174, 177, 25, 0.7), 0 0 6px rgba(134, 136, 33, 0.9);
+            transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+            padding: 0.3px 0.3px 0.3px 0.3px;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 10px 30px rgba(178, 180, 27, 0.8), 0 4px 8px rgba(0, 0, 0, .06);
+            }
+        }
     }
 }

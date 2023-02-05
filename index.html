@@ -23,8 +23,10 @@
     <!-- Preload -->
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Font Awesome icons (free version)-->
+    <link rel="preload" href="https://kit.fontawesome.com/e5d948d59a.js" as="script">
     <script src="https://kit.fontawesome.com/e5d948d59a.js" crossorigin="anonymous"></script>
     <title>Inicio</title>
 
@@ -69,77 +71,72 @@
                 <div>
                     <div class="history">
                         <picture>
-                            <source loading="lazy" type="image/webp" srcset="assets/img/about/about.webp">
+                            <source loading="lazy" type="image/webp" class="mx-auto rounded-circle"
+                                srcset="assets/img/about/about.webp">
                             <img loading="lazy" class="mx-auto rounded-circle" src="assets/img/about/about.jpg"
                                 alt="imagen about" />
                         </picture>
-                        <h4 class="setion-h4 pb-3 mt-3">Exclusivo Garaje Estrella</h4>
+                        <h3 class="setion-h4 pb-3 mt-3">Exclusivo Garaje Estrella</h3>
                         <p class="fs-4 text-muted pb-3">Somos una empresa que se dedica al detailing profesional para
                             autos y motos, tanto en la parte exterior como interior.</p>
                         <p class="fs-4 text-muted pb-3">¡Te aseguramos que quedaras encantado con el resultado final!
                         </p>
-                        <a class="btn btn-dark--redes btn-social mx-2" href="#!"
-                            aria-label="Exclusivo Garaje facebook Profile" target=""><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <a class="btn btn-dark--redes btn-social mx-2" href="#!"
-                            aria-label="Exclusivo Garaje instagram Profile" target=""><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a class="btn btn-dark--redes btn-social mx-2" href="#!"
-                            aria-label="Exclusivo Garaje Youtube Profile" target=""><i
-                                class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
 
 
         </section>
-        <!-- Clients-->
+        <!-- Colaboradores-->
         <aside class="clientes">
-            <div class="py-5">
-                <div class="text-center pb-5">
+            <div class="py-3">
+                <div class="text-center pb-4">
                     <h2 class="section-heading-colab text-uppercase">Algunos de Nuestros Colaboradores!</h2>
                 </div>
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!">
+                    <div data-aos="zoom-in-right" class="row align-items-center justify-content-center">
+                        <div class="col-md-3 col-sm-6 my-4 mx-4 colab">
+                            <a href="https://www.youtube.com/@FULLGASSOFICIAL/featured" target="_blank">
                                 <picture>
-                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto" type="image/webp" srcset="assets/img/logos/fullgas.webp">
-                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto"
-                                        src="assets/img/logos/fullgas.svg" alt="Logocolaborador"
+                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        type="image/webp" srcset="assets/img/colaboradores/fullgas.webp">
+                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        src="assets/img/colaboradores/fullgas.jpg" alt="Logocolaborador"
                                         aria-label="Fullgas Logo" alt="logo Provedor" />
                                 </picture>
                             </a>
-
                         </div>
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!">
+                        <div data-aos="zoom-in-down" class="col-md-3 col-sm-6 my-4 mx-4 colab">
+                            <a href="https://kapital-llantas.negocio.site/" target="_blank">
                                 <picture>
-                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto" type="image/webp" srcset="assets/img/logos/kapital.webp">
-                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto"
-                                        src="assets/img/logos/kapital.svg" alt="Logocolaborador"
+                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        type="image/webp" srcset="assets/img/colaboradores/kapitalllantas.webp">
+                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        src="assets/img/colaboradores/kapitalllantas.jpg" alt="Logocolaborador"
                                         aria-label="Kapital Logo" alt="logo Provedor" />
                                 </picture>
-                            </a>                                
-                        </div>
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!">
-                                <picture>
-                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto" type="image/webp" srcset="assets/img/logos/Fullcars.webp">
-                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto"
-                                        src="assets/img/logos/Fullcars.svg" alt="Logocolaborador"
-                                        aria-label="Fullcars Logo" alt="logo Provedor" />
-                                </picture> 
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!">
+                        <div data-aos="zoom-in-up" class="col-md-3 col-sm-6 my-4 mx-4 colab">
+                            <a href="https://www.youtube.com/channel/UCSE1SNTGvmjfM_YLg_YPP2g" target="_blank">
                                 <picture>
-                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto" type="image/webp" srcset="assets/img/logos/SuperBiker.webp">
-                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto"
-                                        src="assets/img/logos/SuperBiker.svg" alt="Logocolaborador"
+                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        type="image/webp" srcset="assets/img/colaboradores/fullcars.webp">
+                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        src="assets/img/colaboradores/fullcars.jpg" alt="Logocolaborador"
+                                        aria-label="Fullcars Logo" alt="logo Provedor" />
+                                </picture>
+                            </a>
+                        </div>
+                        <div data-aos="zoom-in-left" class="col-md-3 col-sm-6 my-4 mx-4 colab">
+                            <a href="https://www.instagram.com/superbikes.sbk/?hl=es" target="_blank">
+                                <picture>
+                                    <source loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        type="image/webp" srcset="assets/img/colaboradores/superbikers.webp">
+                                    <img loading="lazy" class="img-fluid img-brand d-block mx-auto rounded-circle"
+                                        src="assets/img/colaboradores/superbikers.jpg" alt="Logocolaborador"
                                         aria-label="SuperBiker Logo" alt="logo Provedor" />
-                                </picture> 
+                                </picture>
                             </a>
                         </div>
                     </div>
@@ -148,17 +145,19 @@
         </aside>
     </main>
 
-    <footer class="py-4">
+    <footer>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-start">Copyright &copy; Manfred Anderson Romero</div>
                 <div class="col-lg-4 my-3 my-lg-0 d-flex justify-content-center align-items-center">
-                    <a class="btn btn-dark--redes btn-social mx-2" href="#!" aria-label="Twitter"><i
-                            class="fa-brands fa-twitter"></i></a>
-                    <a class="btn btn-dark--redes btn-social mx-2" href="#!" aria-label="Facebook"><i
+                    <a class="btn btn-dark--redes btn-social mx-2" href="https://www.facebook.com/exclusivogarageestrellaoficial"
+                        aria-label="Exclusivo Garaje facebook Profile" target="_blank"><i
                             class="fa-brands fa-facebook"></i></a>
-                    <a class="btn btn-dark--redes btn-social mx-2" href="#!" aria-label="LinkedIn"><i
-                            class="fa-brands fa-linkedin"></i></a>
+                    <a class="btn btn-dark--redes btn-social mx-2" href="https://www.instagram.com/exclusivogarageestrellaoficial"
+                        aria-label="Exclusivo Garaje instagram Profile" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-dark--redes btn-social mx-2" href="https://www.youtube.com/@exclusivogarageestrella157"
+                        aria-label="Exclusivo Garaje Youtube Profile" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <a class="text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -172,6 +171,10 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="js/modernizr.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -9058,7 +9058,7 @@ body {
   width: auto;
   height: auto;
   margin: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../assets/img/fondotextura.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../assets/img/fondotextura.jpg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.7); }
@@ -9077,9 +9077,9 @@ main {
   height: auto !important; }
 
 footer {
-  height: 15vh;
+  height: 10vh;
   color: #fff;
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0.4) 0%, rgba(84, 74, 30, 0.4) 0%, rgba(113, 99, 41, 0.4) 40%, rgba(21, 80, 130, 0.4) 100%); }
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.7) 0%, rgba(84, 74, 30, 0.7) 0%, rgba(113, 99, 41, 0.7) 40%, rgba(21, 80, 130, 0.7) 100%); }
 
 .section-heading, .section-heading-colab, .section-heading-contac {
   font-size: 2.5rem;
@@ -9131,7 +9131,7 @@ footer {
   #main_nav div a img {
     width: 18%;
     height: 18%;
-    margin-left: 10rem; }
+    margin-left: 5rem; }
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
@@ -9179,7 +9179,7 @@ footer {
 .nosotros {
   height: 160vh; }
   .nosotros .page-section {
-    padding: 8rem 0; }
+    padding: 4rem 0; }
     .nosotros .page-section .history img {
       width: 20rem;
       height: 20rem;
@@ -9196,11 +9196,23 @@ footer {
       font-weight: 200; }
   .nosotros #about {
     padding-top: 7rem; }
+  .nosotros .clientes .colab {
+    width: auto;
+    border-radius: 100%;
+    box-shadow: 0 6px 20px rgba(174, 177, 25, 0.7), 0 0 6px rgba(134, 136, 33, 0.9);
+    transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+    padding: 0.3px 0.3px 0.3px 0.3px; }
+    .nosotros .clientes .colab:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(178, 180, 27, 0.8), 0 4px 8px rgba(0, 0, 0, 0.06); }
 
-footer a {
-  color: white; }
-  footer a:hover {
-    color: #997404; }
+footer {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #997404; }
 
 #main_nav {
   padding-top: 1rem;
@@ -9209,7 +9221,7 @@ footer a {
   #main_nav div a img {
     width: 18%;
     height: 18%;
-    margin-left: 10rem; }
+    margin-left: 5rem; }
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
@@ -9236,18 +9248,25 @@ footer a {
     color: #d6e5e7 !important;
     font-family: "Source Sans Pro", sans-serif; }
   .servicios_main section div div div div .img_servicios {
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
     border: groove 0.4em rgba(76, 129, 129, 0.781);
-    border-radius: 15px 50px 30px; }
+    border-radius: 15px 50px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; }
   .servicios_main section div div div .my-3 {
     color: #fff;
     font-family: "Oswald", sans-serif; }
 
-footer a {
-  color: white; }
-  footer a:hover {
-    color: #997404; }
+footer {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #997404; }
 
 #main_nav {
   padding-top: 1rem;
@@ -9256,7 +9275,7 @@ footer a {
   #main_nav div a img {
     width: 18%;
     height: 18%;
-    margin-left: 10rem; }
+    margin-left: 5rem; }
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
@@ -9381,10 +9400,13 @@ footer a {
       height: 100% !important;
       width: 100% !important; } }
 
-footer a {
-  color: white; }
-  footer a:hover {
-    color: #997404; }
+footer {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #997404; }
 
 #main_nav {
   padding-top: 1rem;
@@ -9393,7 +9415,7 @@ footer a {
   #main_nav div a img {
     width: 18%;
     height: 18%;
-    margin-left: 10rem; }
+    margin-left: 5rem; }
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
@@ -9434,10 +9456,13 @@ footer a {
       margin-top: 1.5rem;
       margin-bottom: 0; }
 
-footer a {
-  color: white; }
-  footer a:hover {
-    color: #997404; }
+footer {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #997404; }
 
 #main_nav {
   padding-top: 1rem;
@@ -9446,7 +9471,7 @@ footer a {
   #main_nav div a img {
     width: 18%;
     height: 18%;
-    margin-left: 10rem; }
+    margin-left: 5rem; }
   #main_nav div .navbar-toggler {
     padding: 0.75rem;
     font-size: 0.75rem;
@@ -9464,26 +9489,26 @@ footer a {
       color: #ffc800; }
 
 .contactos_header {
-  height: 15vh; }
+  height: 10vh; }
 
 .contactos_main {
   height: 140vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/img/map-image.png); }
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/img/map-image.png);
+  padding-top: 1rem; }
   .contactos_main .contenedorcon {
     width: 95%;
     margin: 0 auto;
     font-size: 1.2rem; }
     .contactos_main .contenedorcon h2, .contactos_main .contenedorcon .h2 {
-      margin: 2rem auto;
       text-align: center;
       color: var(--blanco);
       font-size: 2.5rem;
-      background: rgba(182, 164, 62, 0.2);
       border-radius: 3rem; }
     .contactos_main .contenedorcon .formulariocon {
       background-color: rgba(144, 161, 163, 0.2);
       margin: 0 auto;
+      margin-bottom: 2rem;
       padding: 2rem;
       border-radius: 2rem;
       font-size: 90%;
@@ -9500,15 +9525,13 @@ footer a {
         .contactos_main .contenedorcon .formulariocon fieldset .botones_contacto {
           display: flex;
           justify-content: center;
-          gap: 5rem; }
+          gap: 5rem;
+          margin-top: 1rem; }
     .contactos_main .contenedorcon .contenido-herocon {
       background-color: rgba(144, 161, 163, 0.2);
       border-radius: 3rem;
       width: 100%;
       height: 100%;
-      margin-top: 2rem;
-      align-items: center;
-      justify-content: center;
       gap: 5rem;
       font-size: 75%;
       padding: 2rem;
@@ -9539,10 +9562,13 @@ footer a {
     padding: 2rem;
     border-radius: 5rem; }
 
-footer a {
-  color: white; }
-  footer a:hover {
-    color: #997404; }
+footer {
+  margin-top: 1.5rem;
+  padding: 1.5rem 0; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #997404; }
 
 @media (max-width: 991.98px) {
   body {
@@ -9579,7 +9605,6 @@ footer a {
   .img-fluid,
   .portafolio-caption {
     max-width: none;
-    width: 80%;
     height: auto; }
   .portafolio-modal .modal-body {
     display: flex;
@@ -9599,7 +9624,9 @@ footer a {
     padding-top: 2.5rem !important; }
   #portafolio .portafolio-item .portafolio-link .portafolio-hover {
     width: 80% !important;
-    height: 100% !important; } }
+    height: 100% !important; }
+  .btn-primary, .btn-primary-general, .btn-primay-closemodel {
+    margin-top: 1rem; } }
 
 @media (max-width: 767.98px) {
   body {
@@ -9755,8 +9782,7 @@ footer a {
     font-size: 1rem !important; }
   .clientes .img-fluid {
     max-width: none;
-    height: 2rem;
-    width: 13rem; }
+    width: 10rem; }
   .contactos_main .contenedorcon .contenido-herocon .ubicacioncon {
     display: inherit; }
   footer .btn-social {
@@ -9768,11 +9794,13 @@ footer a {
     display: grid;
     gap: 2rem; }
   .contenedorcon h2, .contenedorcon .h2 {
-    grid-column: 1/3; } }
+    grid-column: 1/3; }
+  .formulariocon {
+    margin-bottom: 0rem !important; } }
 
 @media (min-width: 558px) {
   .formulariocon {
-    font-size: 100%; }
+    font-size: 100% !important; }
   .formulariocon legend {
     font-size: 1.7rem; }
   .map-responsivecon {
@@ -9780,10 +9808,10 @@ footer a {
 
 @media (min-width: 992px) {
   #main_nav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border: none;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.4) 0%, rgba(84, 74, 30, 0.4) 0%, rgba(113, 99, 41, 0.4) 40%, rgba(21, 80, 130, 0.4) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.6) 0%, rgba(84, 74, 30, 0.6) 0%, rgba(113, 99, 41, 0.6) 40%, rgba(21, 80, 130, 0.6) 100%);
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out; }
   #main_nav .navbar-brand {
     font-size: 1.5em;

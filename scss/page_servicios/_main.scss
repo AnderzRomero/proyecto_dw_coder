@@ -16,10 +16,14 @@
                 div {
                     div {
                         .img_servicios {
-                            height: 130px;
-                            width: 130px;
+                            height: 200px;
+                            width: 200px;
                             border: groove 0.4em rgba(76, 129, 129, 0.781);
                             border-radius: 15px 50px 30px;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            cursor: pointer;
                         }
                     }
 

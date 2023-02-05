@@ -1,7 +1,8 @@
 .contactos_main {
     height: 140vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/img/map-image.png);
+    padding-top: 1rem;
 
     .contenedorcon {
         width: 95%;
@@ -9,17 +10,16 @@
         font-size: 1.2rem;
 
         h2 {
-            margin: 2rem auto;
             text-align: center;
             color: var(--blanco);
             font-size: 2.5rem;
-            background: rgba(182, 164, 62, 0.20);
             border-radius: 3rem;
         }
 
         .formulariocon {
             background-color: rgba(144, 161, 163, 0.2);
             margin: 0 auto;
+            margin-bottom: 2rem;
             padding: 2rem;
             border-radius: 2rem;
             font-size: 90%;
@@ -47,12 +47,18 @@
 
                         .invalid-feedback {}
                     }
+
+                    .campo__checkbox {
+                        .form-check {}
+                    }
                 }
 
                 .botones_contacto {
                     display: flex;
                     justify-content: center;
                     gap: 5rem;
+                    margin-top: 1rem;
+
 
                     input {}
 
@@ -66,9 +72,6 @@
             border-radius: 3rem;
             width: 100%;
             height: 100%;
-            margin-top: 2rem;
-            align-items: center;
-            justify-content: center;
             gap: 5rem;
             font-size: 75%;
             padding: 2rem;
@@ -87,9 +90,7 @@
 
                 p {
                     color: var(--blanco);
-                    margin: 1rem;
-
-                    span {}
+                    margin: 1rem;                    
                 }
             }
 
