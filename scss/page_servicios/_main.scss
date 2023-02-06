@@ -4,7 +4,7 @@
     section {
         div {
             div {
-                
+
                 .text-muted {
                     padding: 0;
                     color: #d6e5e7 !important;
@@ -30,9 +30,104 @@
                     .my-3 {
                         color: #fff;
                         font-family: $fuenteprincipal;
-                    }                    
-                }             
+                    }
+                }
             }
         }
     }
+
+    .portafolio-modal {
+        .modal-dialog {
+            margin: 1rem;
+            max-width: 100vw;
+
+            .modal-content {
+                padding-top: 6rem;
+                padding-bottom: 6rem;
+                text-align: center;
+                background: $backgroundmodal;
+
+                .modal-body {                    
+
+                    .container-all {
+                        width: 100%;
+                        height: auto;
+                        padding: 2rem 0rem;
+
+                        .content {
+                            width: 60%;
+                            height: 500px;                            
+                            margin: 0 auto;
+
+                            img {
+                                border-radius: 5%;
+                                height: 500px;
+                                width: 500px;
+                            }
+                        }
+
+                    }
+
+                    .text-muted {
+                        color: #fff !important;
+                        padding: 0;
+                    }
+                }
+
+                .h2,
+                h2 {
+                    font-size: 3rem;
+                    line-height: 3rem;
+                    font-family: $fuenteprincipal;
+                    font-weight: 900;
+                    color: #fff;
+                }
+
+                p {
+                    margin-bottom: 2rem;
+                    font-family: $fuentetextos;
+                    font-weight: 300;
+                }
+
+                p.item-intro {
+                    font-style: italic;
+                    margin-bottom: 2rem;
+                    font-family: $fuentetextos;
+                }
+
+                ul.list-inline {
+                    margin-bottom: 2rem;
+                    font-family: $fuentesegundaria;
+                }
+
+                img {
+                    margin-bottom: 2rem;
+                    border-radius: 25%;
+                    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(2, 2, 2, 0.8267682072829132) 100%);
+                }
+            }
+        }
+
+        .close-modal {
+            width: 2rem !important;
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            height: 3rem;
+            cursor: pointer;
+            background-color: transparent;
+
+            &:hover {
+                opacity: 0.3;
+            }
+        }
+
+    }
+
+    // @media (max-width: 575.98px) {
+    //     .modal-body img {
+    //         height: 100% !important;
+    //         width: 100% !important;
+    //     }
+    // }
 }

@@ -1,6 +1,7 @@
 .portafolio_main {
     height: 178vh;
-    #portafolio {      
+
+    #portafolio {
         .text-center {
             .section-heading {
                 padding-top: 2rem;
@@ -99,13 +100,13 @@
                         border-radius: 5%;
                         height: 500px;
                         width: 500px;
-                    }                   
+                    }
 
                     .text-muted {
                         color: #fff !important;
                         padding: 0;
                     }
-                }                
+                }
 
                 .h2,
                 h2 {
@@ -134,9 +135,9 @@
                 }
 
                 img {
-                    margin-bottom: 2rem;                   
+                    margin-bottom: 2rem;
                     border-radius: 25%;
-                    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(2,2,2,0.8267682072829132) 100%);
+                    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(2, 2, 2, 0.8267682072829132) 100%);
                 }
             }
         }
@@ -161,7 +162,6 @@
         .modal-body img {
             height: 100% !important;
             width: 100% !important;
-        }      
+        }
     }
 }
-

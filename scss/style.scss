@@ -101,11 +101,18 @@ footer {
 }
 
 .section-heading-colab {
-    @extend .section-heading;    
+    @extend .section-heading;
 }
 
 .section-heading-contac {
-    @extend .section-heading;    
+    @extend .section-heading;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 
