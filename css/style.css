@@ -9507,7 +9507,7 @@ footer {
   height: 15vh; }
 
 .equipo_main {
-  height: 72.8vh !important; }
+  height: auto !important; }
   .equipo_main .page-section div div .section-subheading {
     font-family: "Source Sans Pro", sans-serif;
     color: #d3cfcf !important;
@@ -9959,7 +9959,11 @@ footer {
     width: 33.33333% !important; }
   .container,
   .container-sm {
-    max-width: 1320px; } }
+    max-width: 1320px; }
+  .equipo_body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto; } }
 
 @media (min-width: 1000px) {
   .formulariocon {

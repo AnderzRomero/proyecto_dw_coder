@@ -424,7 +424,7 @@
                     width: 60%;
                     height: 250px !important;
                     margin: 0 auto;
-                    
+
 
                     img {
                         height: 250px !important;
@@ -552,6 +552,11 @@
         max-width: 1320px;
     }
 
+    .equipo_body {
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+    }    
 }
 
 @media (min-width: 1000px) {
