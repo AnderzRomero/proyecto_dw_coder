@@ -47,10 +47,10 @@
         padding: 0;
     }
 
-    #main_nav a {        
+    #main_nav a {
         width: 25%;
     }
-   
+
 
     .navbar-nav {
         align-items: center;
@@ -62,16 +62,20 @@
         justify-content: space-evenly;
     }
 
-    .page-section {
-        padding: 6rem 0 !important;
-    }
-
     .text-muted {
         padding: 0 !important;
     }
 
+
+    .img_servicios {
+        height: 200px !important;
+        width: 200px !important;
+    }
+
+
+
     .img-fluid,
-    .portafolio-caption {       
+    .portafolio-caption {
         height: auto;
     }
 
@@ -113,6 +117,29 @@
         margin-top: 1rem;
     }
 
+    .servicios_main .portafolio-modal {
+        .modal-body {
+
+            .container-all {
+                width: 100%;
+                height: auto;
+                padding: 2rem 0rem;
+
+                .content {
+                    width: 60%;
+                    height: 450px !important;
+                    margin: 0 auto;
+
+                    img {
+                        height: 450px !important;
+                        width: 450px !important;
+                    }
+                }
+            }
+        }
+    }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -149,10 +176,6 @@
         height: 40% !important;
         margin-left: 0rem !important;
         padding: 0;
-    } 
-
-    .page-section {
-        padding: 5rem 0 !important;
     }
 
     .text-muted {
@@ -199,6 +222,28 @@
         margin-top: 1rem;
     }
 
+    .servicios_main .portafolio-modal {
+        .modal-body {
+
+            .container-all {
+                width: 100%;
+                height: auto;
+                padding: 2rem 0rem;
+
+                .content {
+                    width: 60%;
+                    height: 400px !important;
+                    margin: 0 auto;
+
+                    img {
+                        height: 400px !important;
+                        width: 400px !important;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width: 575.98px) {
@@ -235,14 +280,14 @@
         text-align: center;
         font-size: 0.7rem;
         margin-top: 1rem;
-    }   
-    
+    }
+
     #main_nav img {
         width: 50% !important;
         height: 50% !important;
         margin-left: 0rem !important;
         padding: 0;
-    } 
+    }
 
     .portafolio_main,
     .portafolio-item {
@@ -287,7 +332,7 @@
         margin-left: 10%;
         width: 80% !important;
         height: 100% !important;
-    }    
+    }
 
     .container {
         width: auto;
@@ -367,6 +412,29 @@
         font-size: 0.7rem;
     }
 
+    .servicios_main .portafolio-modal {
+        .modal-body {
+
+            .container-all {
+                width: 100%;
+                height: auto;
+                padding: none;
+
+                .content {
+                    width: 60%;
+                    height: 250px !important;
+                    margin: 0 auto;
+                    
+
+                    img {
+                        height: 250px !important;
+                        width: 250px !important;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width: 389.98px) {
@@ -377,14 +445,14 @@
 
     header.inicio_header {
         padding-top: 2rem !important;
-    }    
+    }
 
     #main_nav img {
         width: 60% !important;
         height: 60% !important;
         margin-left: 0rem !important;
         padding: 0;
-    }  
+    }
 
 }
 
@@ -403,6 +471,12 @@
     .formulariocon {
         margin-bottom: 0rem !important;
     }
+
+    .page-section .col-md-4 {
+        width: 50% !important;
+    }
+
+
 }
 
 @media (min-width: 558px) {
@@ -416,6 +490,14 @@
 
     .map-responsivecon {
         grid-column: 1 / 3;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 700px;
     }
 }
 
@@ -459,6 +541,17 @@
     #main_nav .navbar-nav .nav-item:last-child {
         margin-right: 0;
     }
+
+    .page-section .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333% !important;
+    }
+
+    .container,
+    .container-sm {
+        max-width: 1320px;
+    }
+
 }
 
 @media (min-width: 1000px) {

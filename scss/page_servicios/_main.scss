@@ -9,6 +9,7 @@
                     padding: 0;
                     color: #d6e5e7 !important;
                     font-family: $fuentetextos;
+                    font-size: 1.3rem;
                 }
             }
 
@@ -16,8 +17,8 @@
                 div {
                     div {
                         .img_servicios {
-                            height: 200px;
-                            width: 200px;
+                            height: 250px;
+                            width: 250px;
                             border: groove 0.4em rgba(76, 129, 129, 0.781);
                             border-radius: 15px 50px 30px;
                             background-size: cover;
@@ -30,6 +31,7 @@
                     .my-3 {
                         color: #fff;
                         font-family: $fuenteprincipal;
+                        font-size: 2rem;
                     }
                 }
             }
@@ -47,7 +49,7 @@
                 text-align: center;
                 background: $backgroundmodal;
 
-                .modal-body {                    
+                .modal-body {
 
                     .container-all {
                         width: 100%;
@@ -56,7 +58,7 @@
 
                         .content {
                             width: 60%;
-                            height: 500px;                            
+                            height: 500px;
                             margin: 0 auto;
 
                             img {
@@ -124,10 +126,10 @@
 
     }
 
-    // @media (max-width: 575.98px) {
-    //     .modal-body img {
-    //         height: 100% !important;
-    //         width: 100% !important;
-    //     }
-    // }
+    @media (max-width: 575.98px) {
+        .modal-body img {
+            height: 50% !important;
+            width: 50% !important;
+        }
+    }
 }
